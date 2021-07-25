@@ -5,7 +5,7 @@ After cloning the repo do the following commands:
 * Create a new virtual environment, then activate it.
 
 ```cmd
-virtualenv venv
+python -m venv venv
 venv\Scripts\activate.bat
 ```
 
@@ -18,8 +18,8 @@ pip install -r requirements.txt
 * Init the application, for linux:
 
 ```cmd
-export FLASK_APP=app.py
-export FLASK_DEBUG=true
+set FLASK_APP=app.py
+set FLASK_DEBUG=true
 ```
 
 * Create and init the database migration tool, must be done if you want to create the database for the first time.
